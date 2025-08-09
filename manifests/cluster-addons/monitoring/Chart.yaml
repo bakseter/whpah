@@ -9,7 +9,7 @@ dependencies:
     version: 6.34.0
     repository: https://grafana.github.io/helm-charts
   - name: grafana-operator
-    version: 5.18.0
+    version: v5.19.4
     repository: https://grafana.github.io/helm-charts
   - name: alloy
     version: 1.2.0
