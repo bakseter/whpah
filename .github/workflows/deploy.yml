@@ -16,7 +16,7 @@ jobs:
       HCLOUD_TOKEN: ${{ secrets.HCLOUD_TOKEN }}
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Setup Packer
         uses: hashicorp/setup-packer@v3
@@ -47,7 +47,7 @@ jobs:
       TF_API_TOKEN: ${{ secrets.TF_API_TOKEN }}
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Upload Terraform configuration
         uses: hashicorp/tfc-workflows-github/actions/upload-configuration@v1.3.2
