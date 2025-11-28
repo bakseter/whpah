@@ -23,7 +23,7 @@ jobs:
 
       - name: Get changed files
         id: changed-files
-        uses: tj-actions/changed-files@ed68ef82c095e0d48ec87eccea555d944a631a4c
+        uses: tj-actions/changed-files@abdd2f68ea150cee8f236d4a9fb4e0f2491abf1b
         with:
           files: ${{ env.PACKER_FILE }}
 
